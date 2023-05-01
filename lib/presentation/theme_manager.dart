@@ -50,7 +50,42 @@ ThemeData getThemeData() {
         ),
       ),
     ),
+
     // Text theme
+    textTheme: TextTheme(
+      titleLarge: getSemiBoldTextStyle(
+        color: ColorManager.darkGrey,
+        fontSize: FontSizes.s16,
+      ),
+      bodyMedium: getRegularTextStyle(
+        color: ColorManager.grey1,
+        fontSize: FontSizes.s14,
+      ),
+      bodyLarge: getMediumTextStyle(
+        color: ColorManager.primary,
+        fontSize: FontSizes.s16,
+      ),
+      bodySmall: getRegularTextStyle(
+        color: ColorManager.primary,
+        fontSize: FontSizes.s12,
+      ),
+      headlineLarge: getSemiBoldTextStyle(
+        color: ColorManager.primary,
+        fontSize: FontSizes.s18,
+      ),
+      headlineMedium: getBoldTextStyle(
+        color: ColorManager.primary,
+        fontSize: FontSizes.s12,
+      ),
+      headlineSmall: getRegularTextStyle(
+        color: ColorManager.grey2,
+        fontSize: FontSizes.s12,
+      ),
+      displayMedium: getMediumTextStyle(
+        color: ColorManager.grey2,
+        fontSize: FontSizes.s14,
+      ),
+    ),
 
     // Input decoration theme (Text field
     // )
