@@ -24,13 +24,32 @@ ThemeData getThemeData() {
       color: ColorManager.primary,
       shadowColor: ColorManager.primaryLight,
       elevation: AppSizes.s4,
-      titleTextStyle: getRegularStyle(
+      titleTextStyle: getRegularTextStyle(
         fontSize: FontSizes.s12,
         color: ColorManager.white,
       ),
     ),
-    // Buton theme
+    // Button theme
+    buttonTheme: ButtonThemeData(
+      shape: const StadiumBorder(),
+      buttonColor: ColorManager.primary,
+      disabledColor: ColorManager.grey1,
+      splashColor: ColorManager.primaryLight,
+    ),
 
+    // Elevated Button Theme
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: ColorManager.primary,
+        textStyle: getRegularTextStyle(
+          fontSize: FontSizes.s17,
+          color: ColorManager.white,
+        ),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(AppSizes.s12),
+        ),
+      ),
+    ),
     // Text theme
 
     // Input decoration theme (Text field
