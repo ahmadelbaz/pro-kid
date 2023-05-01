@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pro_kid/presentation/color_manager.dart';
-import 'package:pro_kid/presentation/fonts_manager.dart';
-import 'package:pro_kid/presentation/style_manager.dart';
-import 'package:pro_kid/presentation/values_manager.dart';
+import 'package:pro_kid/presentation/resources/color_manager.dart';
+import 'package:pro_kid/presentation/resources/fonts_manager.dart';
+import 'package:pro_kid/presentation/resources/style_manager.dart';
+import 'package:pro_kid/presentation/resources/values_manager.dart';
 
 ThemeData getThemeData() {
   return ThemeData(
